@@ -14,4 +14,4 @@ Let's visualize how a stack is:
 
 ![This is an stack](https://holycoders.com/content/images/wordpress/2020/04/Stack-data-structure.png)
 
-As we can see in the picture there is only one way to push or pop items in and out of the stack respectively. The last element that enters the stack, it is the first element that exits it. This procedure is called LIFO (Last In First Out). If we put three elements in the stack and we want to remove the bottom down element then **we have to remove** all the elements above it. Please check the Stack project for further knowledge.
+  As we can see in the picture there is only one way to push or pop items in and out of the stack respectively. The last element that enters the stack, it is the first element that exits it. This procedure is called LIFO (Last In First Out). If we put three elements in the stack and we want to remove the bottom down element then **we have to remove** all the elements above it. Please check the Stack project for further knowledge.
