@@ -1,4 +1,7 @@
 ﻿
+using System.Runtime.CompilerServices;
+using System.Text.RegularExpressions;
+
 namespace Stack
 {
     public class Stack : StackBase
@@ -49,7 +52,41 @@ namespace Stack
             }
         }
 
+        private bool IsFunctional()
+        {
+            if (top > -1 && top <= size - 1)
+                return true;
+            else
+                return false;
+        }
 
+        private bool IsFull()
+        {
+            if (top > size - 1)
+                return true;
+            else
+                return false;
+        }
+
+        private bool IsEmpty()
+        {
+            if (top < size-1)
+                return true;
+            else
+                return false;
+        }
+
+        public void Push(int number)
+        {
+            if(IsEmpty() && IsFunctional())
+            {
+                stack[++top] = number;
+                Console.WriteLine($"The {number} has been pushed");
+            }
+            else
+                Console.WriteLine("The stack is full. If you want to push something you have to pop an element first");
+
+        }
 
 
         public void StackPrint()
