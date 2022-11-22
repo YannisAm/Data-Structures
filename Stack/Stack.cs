@@ -5,11 +5,11 @@ using System.Text.RegularExpressions;
 
 namespace Stack
 {
-    public class Stack : StackBase
+    public class Stack
     {
-        private int top = -1;       //here we initialize the top variable assigning it the value of -1
-        private int[]? stack;       //we initialize the stack array, but we will assign it's size in the constructor to make it more dynamic
-        private int size;           //here we initialize the size of the array but it's value we will be assigned with the constructor
+        private int top = -1;       //We initialize the top variable assigning it the value of -1
+        private int[]? stack;       //We initialize the stack array, but we will assign it's size in the constructor to make it more dynamic
+        private int size;           //We initialize the size of the array but it's value we will be assigned with the constructor
 
         public Stack(int size)      //we initialize the size of our stack declaring it in the constuctor and checking if it is grater than zero because
         {                           //there is no stack with zero or negative size
@@ -27,7 +27,7 @@ namespace Stack
             try
             {
                 if (top > -1 && top <= size-1)
-                    return top;
+                    return stack[top];
                 else
                     throw new Exception();
             }
@@ -44,7 +44,7 @@ namespace Stack
         {
             try                             //we initialize the getter for the size of the stack. if the size is greater than zero, that means that we
             {                               //have initialized it and we can return it, else an exception is thrown.
-                    if (size >= 0)
+                if (size >= 0)
                     return size;
                 else
                     throw new Exception();
