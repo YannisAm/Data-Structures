@@ -12,6 +12,20 @@ Stack is one of the most important of them. With this data structure starts the 
 
 Let's visualize how a stack is:
 
-![This is an stack](https://holycoders.com/content/images/wordpress/2020/04/Stack-data-structure.png)
+![This is a stack](https://holycoders.com/content/images/wordpress/2020/04/Stack-data-structure.png)
 
   As we can see in the picture there is only one way to push or pop items in and out of the stack respectively. The last element that enters the stack, it is the first element that exits it. This procedure is called LIFO (Last In First Out). If we put three elements in the stack and we want to remove the bottom down element then **we have to remove** all the elements above it. Please check the Stack project for further knowledge.
+
+
+### QUEUE
+
+#### Simple Queue
+
+I am going to code two different kinds of queues. Let's start with the simple one.
+
+  1.  In the simple queue the first element that enters, is the first element that exits. This procedure is called FIFO
+(First In First Out). When we put an element we call it **enqueue** and we take an element out we call it **dequeue** So, when we extract the first element, then all the other elements must occupy the position in front of them. This procedure uses a lot of resources, especially if we have a queue with many elements. Later we are going to see how to make the queue more efficient.
+
+Let's visualize the simple queue:
+
+![This is a simple queue](https://cdn.programiz.com/sites/tutorial2program/files/simple-queue_0.png)
