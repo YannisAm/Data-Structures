@@ -19,11 +19,11 @@ Let's visualize how a stack is:
 
 ### QUEUE
 
-#### Simple Queue
+#### 1. Simple Queue
 
 I am going to code two different kinds of queues. Let's start with the simple one.
 
-  1.  In the simple queue the first element that enters, is the first element that exits. This procedure is called FIFO
+  *  In the simple queue the first element that enters, is the first element that exits. This procedure is called FIFO
 (First In First Out). When we put an element we call it **enqueue** and we take an element out we call it **dequeue** So, when we extract the first element, then all the other elements must occupy the position in front of them. This procedure uses a lot of resources, especially if we have a queue with many elements. Later we are going to see how to make the queue more efficient.
 
 Let's visualize the simple queue:
