@@ -1,6 +1,6 @@
 # The journey to Data-Structures
 
-##### This project is beeing made for better understanding of data structures. For this reason not only we can understand what their purpose is but also we will write them again in C#. Below follows a list from all the data structures that are currently finished.
+##### This project is beeing made for the better understanding of data structures. For this reason not only I can understand what their purpose is but also I will code them in C#. Below follows a list from all the data structures that are currently finished.
 
 1. Stack
 
