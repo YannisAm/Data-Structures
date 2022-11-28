@@ -4,12 +4,12 @@ namespace CircularQueue
 {
     public class CircularQueue
     {
-        private int _size;
-        private int[] _data;
+        private int _size;              //We initialize the size, data, start and the length of queue. The start variable shows the position of the first element and the length
+        private int[] _data;            //variable show the size of the queue at that moment.
         private int _start;
         private int _length;
 
-        public CircularQueue(int size)
+        public CircularQueue(int size)  //In the constructor we set the size of the queue to be grater than zero. Furthermore, we assing values to start and length.
         {
             if(size > 0)
             {
@@ -109,7 +109,7 @@ namespace CircularQueue
         {
 
             int min = -1;
-            if (!isEmpty())
+            if (!IsEmpty())
             {
                 min = _data[_start];
                 for (int i = 1; i < _length; i++)
@@ -125,7 +125,7 @@ namespace CircularQueue
         {
 
             int sum = -1;
-            if (!isEmpty())
+            if (!IsEmpty())
             {
                 sum = 0;
                 for (int i = 0; i < _length; i++)
@@ -140,8 +140,8 @@ namespace CircularQueue
         {
 
             float avg = -1;
-            if (!isEmpty())
-                avg = this.FindSum() / (float)_data;
+            if (!IsEmpty())
+                avg = this.FindSum()/(float)_length;
             else
                 Console.WriteLine("Queue is empty!!!");
             return avg;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Giannis Amanatidis\\Desktop\\Repos\\Data-Structure\\Queue\\Circular queue\\CircularQueue\\CircularQueue.csproj": {}
+    "C:\\Users\\Giannis Amanatidis\\Desktop\\Repos\\Data-Structure\\Queue\\CircularQueue\\CircularQueue.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Giannis Amanatidis\\Desktop\\Repos\\Data-Structure\\Queue\\Circular queue\\CircularQueue\\CircularQueue.csproj": {
+    "C:\\Users\\Giannis Amanatidis\\Desktop\\Repos\\Data-Structure\\Queue\\CircularQueue\\CircularQueue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giannis Amanatidis\\Desktop\\Repos\\Data-Structure\\Queue\\Circular queue\\CircularQueue\\CircularQueue.csproj",
+        "projectUniqueName": "C:\\Users\\Giannis Amanatidis\\Desktop\\Repos\\Data-Structure\\Queue\\CircularQueue\\CircularQueue.csproj",
         "projectName": "CircularQueue",
-        "projectPath": "C:\\Users\\Giannis Amanatidis\\Desktop\\Repos\\Data-Structure\\Queue\\Circular queue\\CircularQueue\\CircularQueue.csproj",
+        "projectPath": "C:\\Users\\Giannis Amanatidis\\Desktop\\Repos\\Data-Structure\\Queue\\CircularQueue\\CircularQueue.csproj",
         "packagesPath": "C:\\Users\\Giannis Amanatidis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giannis Amanatidis\\Desktop\\Repos\\Data-Structure\\Queue\\Circular queue\\CircularQueue\\obj\\",
+        "outputPath": "C:\\Users\\Giannis Amanatidis\\Desktop\\Repos\\Data-Structure\\Queue\\CircularQueue\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
