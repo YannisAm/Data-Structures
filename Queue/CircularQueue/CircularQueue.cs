@@ -106,6 +106,7 @@ namespace CircularQueue
                 for (int i = 1; i < _length; i++)
                     if (_data[(_start + i) % _size] > max)
                         max = _data[(_start + i) % _size];
+                Console.WriteLine("Max is " + max);
             }
             else
                 Console.WriteLine("Queue is empty!!!");
@@ -122,6 +123,7 @@ namespace CircularQueue
                 for (int i = 1; i < _length; i++)
                     if (_data[(_start + i) % _size] < min)
                         min = _data[(_start + i) % _size];
+                Console.WriteLine("Min is " + min);
             }
             else
                 Console.WriteLine("Queue is empty!!!");
@@ -137,6 +139,7 @@ namespace CircularQueue
                 sum = 0;
                 for (int i = 0; i < _length; i++)
                     sum += _data[(_start + i) % _size];
+                Console.WriteLine("Sum is " + sum);
             }
             else
                 Console.WriteLine("Queue is empty!!!");
