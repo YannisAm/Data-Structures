@@ -29,3 +29,11 @@ I am going to code two different kinds of queues. Let's start with the simple on
 Let's visualize the simple queue:
 
 ![This is a simple queue](https://cdn.programiz.com/sites/tutorial2program/files/simple-queue_0.png)
+
+#### 2. Circular Queue
+
+  * The difference between this queue and the previous one is that in a circular queue, the element does not have to start at the beginning. We "bring" the beginning of the queue to where the element is. It is a little different, but it is way more efficient than the simple queue. 
+
+Let's visualize the circular queue:
+
+![This is a circular queue](https://static.javatpoint.com/ds/images/circular-queue.png)
