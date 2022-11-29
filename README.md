@@ -3,6 +3,7 @@
 ##### This project is being created to improve one's understanding of data structures. For this reason, not only can I understand what their purpose is, but I will also code them in C#. Below follows a list of all the data structures that are currently finished.
 
 1. Stack
+2. Queue
 
 
 
