@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Giannis Amanatidis\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Giannis Amanatidis\\Desktop\\Repos\\Data-Structure\\Queue\\CircularQueue\\CircularQueue.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Repos\\Data-Structures\\Queue\\CircularQueue\\CircularQueue.csproj",
       "projectName": "CircularQueue",
-      "projectPath": "C:\\Users\\Giannis Amanatidis\\Desktop\\Repos\\Data-Structure\\Queue\\CircularQueue\\CircularQueue.csproj",
-      "packagesPath": "C:\\Users\\Giannis Amanatidis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Giannis Amanatidis\\Desktop\\Repos\\Data-Structure\\Queue\\CircularQueue\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Desktop\\Repos\\Data-Structures\\Queue\\CircularQueue\\CircularQueue.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\Repos\\Data-Structures\\Queue\\CircularQueue\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Giannis Amanatidis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
